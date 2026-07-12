@@ -20,7 +20,8 @@ public class Principal {
     Producto producto1 = new Producto("Laptop", 15000.00, 5);
 
     producto1.mostrarInformacion();
-
+ProductoElectronico producto2 = new ProductoElectronico("Celular", 12000.00, 3, "Samsung");
+producto2.mostrarInformacion();
     System.out.println("Programa finalizado.");
 
 }
